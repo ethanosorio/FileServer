@@ -3,7 +3,7 @@ a local server to edit files using HTTP requests
 
 ## Description
 The page displays the files in your working directory, and allows you to select a folder and edit it.
-The text area displays the contents of the selected file. There is a dropdown menu with all available file.
+The text area displays the contents of the selected file. There is a dropdown menu with all available files.
 A new file can be created by typing a name into the blank input line under the select menu and pressing the save button.
 If a file is selected it can be deleted with the delete button.
 A directory can be created by typing a name into the blank input line right above the "Publish Directory" button, and pressing the button.
