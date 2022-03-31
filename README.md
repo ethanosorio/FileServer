@@ -1,5 +1,5 @@
 # FileServer
-a local server to edit files using HTTP requests
+This project is a local server to edit files using HTTP requests that I created for class. The assignment originally comes from [Eloquent JS](https://eloquentjavascript.net/20_node.html)
 
 ## Description
 The page displays the files in your working directory, and allows you to select a folder and edit it.
