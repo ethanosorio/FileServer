@@ -1,0 +1,18 @@
+#body{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+#directory-container{
+    position: absolute;
+    left: 10px;
+}
+
+#filetxt{
+    width: 50%;
+    height: 300px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    border-radius: 10px;
+}
+

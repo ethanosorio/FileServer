@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ethan Osorio</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body id="body" style="text-align: center;">
+		<h1>File Server</h1>
+		<p>This website allows you to edit a file system.
+		<br>Select a file to open, or type a new file name and save it.
+		<br>You can save or delete your files whenever you choose.
+		<br>There is also the option of creating a new sub directory.
+		<br>To create a directory, write a name and press publish.
+		</p>
+		<div id="directory-container">
+			<h3>Directory</h3>
+			<div id="dir" style="display: table-caption"></div><br>
+		</div>
+
+		<select id="files"></select><br><br>
+		<label id="filename-container">
+        	<input type="text" name="filename" id="filename" />
+      	</label>
+
+		<form>
+			<textarea id="filetxt" rows="10" cols="75"></textarea>
+				<br>
+			<div id="btns">
+				<input tag="button" type="button" value="save" id="save"/>
+				<input tag="button" type="button" value="delete" id="delete"/>
+					<br>
+					<br>
+				<input type="text" name="dirname" id="dirname"/><br>
+				<input tag="button" type="button" value="Publish Directory" id="publishDirectory"/>
+			</div>
+		</form>
+
+		<script src="index.js"></script>
+	</body>
+	
+</html>
